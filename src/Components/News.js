@@ -9,7 +9,6 @@ const News = () => {
     <div>
       <div>
         <h1 className="text-4xl text-center pt-3 pb font-bold" id="News">NEWS</h1>
-        <h1 className="text-4xl text-center pt-3 pb font-bold" id="News">تحيه لخراميز</h1>
       </div>
       <div className="md:flex md:justify-between py-2 px-8">
         <span className="p-8 ">

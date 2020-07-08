@@ -1,0 +1,78 @@
+.green{
+    color: #3d9a8b;
+   
+}
+.light-green{
+color: #2eb19f;
+background-color: #2eb19f;
+}
+.blue{
+    
+    background-color: #63c2d2;
+}
+
+
+.light-blue{
+    color: #b7edff;
+    background-color: #b7edff;
+}
+
+
+.image{
+    background-image: url("../assests/un.jpg");
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 500px;
+    
+
+}
+
+.bg-text{
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+    color: white;
+    font-weight: bold;
+    font-size: medium;
+    border: 3px solid #f1f1f1;
+    position: absolute;
+    top: 33%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 80%;
+    padding: 20px;
+    text-align: center;
+}
+.text {
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+    text-align:center ;
+    width: 100%;
+    font-size: 20px;
+    font-weight: 900;
+    color: #fff;
+    margin-bottom: 52px;
+    position: absolute;
+    top: 33%;
+
+}
+
+@media (min-width: 640px) and (max-width:770px) {
+.bg-text{
+
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+    color: white;
+    font-weight: bold;
+    font-size:16px;
+    border: 3px solid #f1f1f1;
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 80%;
+    padding: 20px;
+    text-align: center;
+}}

@@ -3,11 +3,12 @@ import "../css/main.css";
 import Covid from "../assests/cv19.jpg";
 import Iraq from "../assests/irq.jpg";
 import China from "../assests/chn.jpg";
-
+//This is the news
 const News = () => {
   return (
     <div>
       <div>
+        
         <h1 className="text-4xl text-center pt-3 pb font-bold" id="News">NEWS</h1>
       </div>
       <div className="md:flex md:justify-between py-2 px-8">

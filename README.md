@@ -1,1 +1,2 @@
-A web app that i built for college project,that shows latest information about COVID-19
+college project,that shows latest information about COVID-19
+
